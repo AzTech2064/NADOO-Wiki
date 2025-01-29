@@ -11,5 +11,7 @@ einige änderungen für die wiki aufgaben. *blub*
 ![Schritt 1](/images/GitHub_Fork_1.PNG)
 2. Auf Choose an owner klicken.
 ![Schritt 2](/images/GitHub_Fork_3.PNG)
-3. Den eigenen Account auswählen
+3. Den eigenen Account auswählen.
 ![Schritt 3](/images/GitHub_Fork_4.PNG)
+4. Auf Create Fork klicken.
+![Schritt 4](/images/GitHub_Fork_5.PNG)
