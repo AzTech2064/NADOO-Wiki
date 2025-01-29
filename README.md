@@ -19,14 +19,14 @@ einige Änderungen für die wiki aufgaben.
 ## Issues anlegen
 
 0. Im Repository auf issues klicken.
-![Schritt 0](/images/GitHub_Issue_0.PNG)
+![Schritt 0](/images/GitHub_Issues_0.PNG)
 1. Auf New issue klicken.
-![Schritt 1](/images/GitHub_Issue_1.PNG)
+![Schritt 1](/images/GitHub_Issues_1.PNG)
 2. Titel und Inhalt eingeben
-![Schritt 2](/images/GitHub_Issue_2.PNG)
+![Schritt 2](/images/GitHub_Issues_2.PNG)
 3. Auf das Zahnrad neben Labels klicken.
-![Schritt 3](/images/GitHub_Issue_3.PNG)
+![Schritt 3](/images/GitHub_Issues_3.PNG)
 4. Relevante Labels hinzufügen.
-![Schritt 4](/images/GitHub_Issue_4.PNG)
+![Schritt 4](/images/GitHub_Issues_4.PNG)
 5. Auf Create klicken.
-![Schritt 5](/images/GitHub_Issue_5.PNG)
+![Schritt 5](/images/GitHub_Issues_5.PNG)
