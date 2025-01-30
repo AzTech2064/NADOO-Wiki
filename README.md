@@ -41,7 +41,7 @@ einige Änderungen für die wiki aufgaben.
 ### 4. Wir befinden uns nun im Dateipfad "C:\Users\Temp_Admin\Documents". Um einen Ordner nach oben zu wechseln geben wir nun "cd .." ein und bestätigen mit Enter.  
 ![Schritt 4](/images/Terminal_Win_4.PNG)
 ### 5. Da wir uns wieder im Dateipfad "C:\Users\Temp_Admin" befinden, schauen wir uns jetzt die Ordnerinhalt mit dem Befehl "dir" an, und bestätigen mit Enter.  
-![Schritt 5](/images/Terminal_Win_5.png)
+![Schritt 5](/images/Terminal_Win_5.PNG)
 ### 6. Nun sehen wir den Inhalt des Dateipfades in dem wir uns befinden.  
 ![Schritt 6](/images/Terminal_Win_6.PNG)
 ### 7. Als nächstes schauen wir uns die gesamte Dateistruktur unserer Position mit dem Befehl "tree" an. "tree" eingeben und mit Enter bestätigen.  
