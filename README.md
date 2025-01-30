@@ -45,4 +45,4 @@ einige Änderungen für die wiki aufgaben.
 ### 6. Nun sehen wir den Inhalt des Dateipfades in dem wir uns befinden.  
 ![Schritt 6](/images/Terminal_Win_6.PNG)
 ### 7. Als nächstes schauen wir uns die gesamte Dateistruktur unserer Position mit dem Befehl "tree" an. "tree" eingeben und mit Enter bestätigen.  
-![Schritt 7](/images/Terminal_Win_7.png)
+![Schritt 7](/images/Terminal_Win_7.PNG)
