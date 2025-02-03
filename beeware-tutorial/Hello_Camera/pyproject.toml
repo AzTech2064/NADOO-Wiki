@@ -1,46 +1,45 @@
 # This project was generated with 0.3.21 using template: https://github.com/beeware/briefcase-template@v0.3.21
 [tool.briefcase]
-project_name = "Hello World"
+project_name = "hellocamera"
 bundle = "com.example"
 version = "0.0.1"
-url = "https://example.com/helloworld"
+url = "https://example.com/Hello_Camera"
 license.file = "LICENSE"
 author = "Jane Developer"
 author_email = "jane@example.com"
 
-[tool.briefcase.app.helloworld]
-formal_name = "Hello World"
+[tool.briefcase.app.Hello_Camera]
+formal_name = "hellocamera"
 description = "My first application"
-long_description = """More details about the app should go here."""
-icon =  "icons/helloworld"
-splash_background_color = "#D3E6F5"
+long_description = """More details about the app should go here.
+"""
+permission.camera = "App will take mugshots."
 sources = [
-    "src/helloworld",
+    "src/Hello_Camera",
 ]
 test_sources = [
     "tests",
 ]
 
 requires = [
-    "httpx"
 ]
 test_requires = [
     "pytest",
 ]
 
-[tool.briefcase.app.helloworld.macOS]
+[tool.briefcase.app.Hello_Camera.macOS]
 universal_build = true
 requires = [
     "toga-cocoa~=0.4.7",
     "std-nslog~=1.0.3",
 ]
 
-[tool.briefcase.app.helloworld.linux]
+[tool.briefcase.app.Hello_Camera.linux]
 requires = [
     "toga-gtk~=0.4.7",
 ]
 
-[tool.briefcase.app.helloworld.linux.system.debian]
+[tool.briefcase.app.Hello_Camera.linux.system.debian]
 system_requires = [
     # Needed to compile pycairo wheel
     "libcairo2-dev",
@@ -59,7 +58,7 @@ system_runtime_requires = [
     # "gir1.2-webkit2-4.1",
 ]
 
-[tool.briefcase.app.helloworld.linux.system.rhel]
+[tool.briefcase.app.Hello_Camera.linux.system.rhel]
 system_requires = [
     # Needed to compile pycairo wheel
     "cairo-gobject-devel",
@@ -78,7 +77,7 @@ system_runtime_requires = [
     # "webkit2gtk3",
 ]
 
-[tool.briefcase.app.helloworld.linux.system.suse]
+[tool.briefcase.app.Hello_Camera.linux.system.suse]
 system_requires = [
     # Needed to compile pycairo wheel
     "cairo-devel",
@@ -97,7 +96,7 @@ system_runtime_requires = [
     # "libwebkit2gtk3", "typelib(WebKit2)",
 ]
 
-[tool.briefcase.app.helloworld.linux.system.arch]
+[tool.briefcase.app.Hello_Camera.linux.system.arch]
 system_requires = [
     # Needed to compile pycairo wheel
     "cairo",
@@ -124,7 +123,7 @@ system_runtime_requires = [
     # "webkit2gtk",
 ]
 
-[tool.briefcase.app.helloworld.linux.appimage]
+[tool.briefcase.app.Hello_Camera.linux.appimage]
 manylinux = "manylinux_2_28"
 
 system_requires = [
@@ -145,24 +144,24 @@ linuxdeploy_plugins = [
     "DEPLOY_GTK_VERSION=3 gtk",
 ]
 
-[tool.briefcase.app.helloworld.linux.flatpak]
+[tool.briefcase.app.Hello_Camera.linux.flatpak]
 flatpak_runtime = "org.gnome.Platform"
 flatpak_runtime_version = "47"
 flatpak_sdk = "org.gnome.Sdk"
 
-[tool.briefcase.app.helloworld.windows]
+[tool.briefcase.app.Hello_Camera.windows]
 requires = [
     "toga-winforms~=0.4.7",
 ]
 
 # Mobile deployments
-[tool.briefcase.app.helloworld.iOS]
+[tool.briefcase.app.Hello_Camera.iOS]
 requires = [
     "toga-iOS~=0.4.7",
     "std-nslog~=1.0.3",
 ]
 
-[tool.briefcase.app.helloworld.android]
+[tool.briefcase.app.Hello_Camera.android]
 requires = [
     "toga-android~=0.4.7",
 ]
@@ -178,7 +177,7 @@ build_gradle_dependencies = [
 ]
 
 # Web deployments
-[tool.briefcase.app.helloworld.web]
+[tool.briefcase.app.Hello_Camera.web]
 requires = [
     "toga-web~=0.4.7",
 ]
